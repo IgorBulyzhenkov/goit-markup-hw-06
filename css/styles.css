@@ -724,15 +724,12 @@ body {
     visibility: inherit;
 }
 
-.footer-form-btn::after{
+.footer-icon{
     position: absolute;
-    content: '';
-    width: 24px;
-    height: 24px;
-    background-image: url(../img/icon\ send.svg);
     background-size: contain;
     top: 13px;
     right: 28px;
+    fill: var(--primery-text-color);
 }
 
 
