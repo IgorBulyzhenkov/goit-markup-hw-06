@@ -831,12 +831,12 @@ body {
     transition: var(--time-cubic-bezier);
 }
 
-.form-field input:hover,
-.form-field input:focus {
+.form-input:focus {
     border-color: var(--accent-color);
+    outline: none;
 }
 
-.form-field:focus-within>.form-icon {
+.form-icon:focus {
     border-color: var(--accent-color);
 }
 
@@ -853,7 +853,6 @@ body {
 
 .form-input {
     padding-left: 42px;
-
 }
 
 textarea {
@@ -865,9 +864,9 @@ textarea {
     transition: var(--time-cubic-bezier);
 }
 
-textarea:hover,
 textarea:focus {
     border-color: var(--accent-color);
+    outline: none;
 }
 
 .form-field textarea::placeholder {
